@@ -1,0 +1,14 @@
+.content {    
+    display: grid;
+    width: 100vw;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.content__card {
+    grid-column: 2;
+    border-radius: 20px;
+    padding: 10px;    
+    margin: 10px;
+    width: 400x;
+    height: 200px;
+}
